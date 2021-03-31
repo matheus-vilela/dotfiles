@@ -1,5 +1,5 @@
 # Instalação do driver do adaptador de Wifi 0bda:f179 Realtek Semiconductor Corp
-
+&nbsp;
 ### A identificação real do chip da placa é obtido com o comando abaixo.
 
 ```bash
@@ -11,11 +11,11 @@ $ lsusb
 Bus 001 Device 007: ID 0bda:f179 Realtek Semiconductor Corp.
 ```
 
-
+&nbsp;
 
 ---
 ## Instalação 0bda:f179 Realtek Semiconductor.
-
+&nbsp;
 ### Faça o download da firmware.
 
 ```bash
@@ -56,12 +56,17 @@ $ sudo depmod -a $(uname -r)
 $ sudo update-initramfs -u
 ```
 
+#### Obs.: O $(uname -r) descobre a versão do seu kernel para instalar no lugar certo o driver
+  
+&nbsp;
+
 ### Reiniciar o sistema
 
 ```bash
 $ sudo reboot
 ```
-
+&nbsp;
+&nbsp;
 ---
 ## Se nao funcionar ao iniciar rode os codigos abaixo:
 
@@ -70,6 +75,8 @@ $ cd ~/rtl8188fu
 $ sudo modprobe cfg80211
 $ sudo insmod rtl8188fu.ko
 ```
+&nbsp;
+
 ---
 
 By Matheus Vilela :wave: [Get in touch!](https://www.linkedin.com/in/vilelagit/)
