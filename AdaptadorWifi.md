@@ -56,7 +56,7 @@ $ sudo depmod -a $(uname -r)
 $ sudo update-initramfs -u
 ```
 
-#### Obs.: O $(uname -r) descobre a versão do seu kernel para instalar no lugar certo o driver
+Obs.: O $(uname -r) descobre a versão do seu kernel para instalar no lugar certo o driver
   
 &nbsp;
 
@@ -65,10 +65,8 @@ $ sudo update-initramfs -u
 ```bash
 $ sudo reboot
 ```
-&nbsp;
-&nbsp;
----
-## Se nao funcionar ao iniciar rode os codigos abaixo:
+
+### Se nao funcionar ao iniciar rode os codigos abaixo:
 
 ```bash
 $ cd ~/rtl8188fu
