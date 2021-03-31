@@ -10,17 +10,17 @@ Bus 001 Device 007: ID 0bda:f179 Realtek Semiconductor Corp.
 
 ## Instalação 0bda:f179 Realtek Semiconductor.
 
-###Faça o download da firmware.
+### Faça o download da firmware.
 
 $ git clone https://github.com/ulli-kroll/rtl8188fu.git
 
 
-###Entre no diretório da firmware que fez o download.
+### Entre no diretório da firmware que fez o download.
 
 cd ~/rtl8188fu
 
 
-###Compile a firmware.
+### Compile a firmware.
 
 make
 

@@ -12,6 +12,7 @@ module.exports = {
     windowSize: [720, 520],
     fontSize: 10,
     fontFamily: 'Fira Code, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontWeight: 'bold',
     lineHeight: 1,
     letterSpacing: 0,
   },
