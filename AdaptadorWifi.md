@@ -13,6 +13,7 @@ Bus 001 Device 007: ID 0bda:f179 Realtek Semiconductor Corp.
 
 &nbsp;
 
+
 ---
 ## Instalação 0bda:f179 Realtek Semiconductor.
 &nbsp;
