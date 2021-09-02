@@ -1,6 +1,6 @@
 export ZSH="/home/vilela/.oh-my-zsh"
 ZSH_THEME="spaceship"
-
+#ZSH_THEME="dracula-pro"
 # aliases
 alias zs="source ~/.zshrc"
 alias zsc="code ~/.zshrc"
@@ -27,7 +27,7 @@ SPACESHIP_PROMPT_ORDER=(
   dir           # Current directory section
   host          # Hostname section
   git           # Git section (git_branch + git_status)
-  node		# NOde section
+  node          # Node section
   hg            # Mercurial section (hg_branch  + hg_status)
   exec_time     # Execution time
   line_sep      # Line break
@@ -66,13 +66,13 @@ export NVM_DIR="$HOME/.nvm"
 ######### Android Studio settings
 
 export JAVA_HOME=/lib/jvm/java-11-openjdk-amd64
-export ANDROID_HOME=~/Android/sdk
+export ANDROID_HOME=~/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
-
+export PATH=$PATH:~/android-studio/bin
 
 ######### Added by Zinit's installer
 
